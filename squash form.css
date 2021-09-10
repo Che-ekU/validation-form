@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-dec {
+    background-color: white;
+    border-radius: 13px;
+}
+
+label {
+    color: gray;
+}
+
+#logo {
+    opacity: 0;
+}
+
+.check-dec {
+    height: 20px;
+    width: 20px;
+    margin-bottom: 7px;
+}
+
+.term-dec {
+    cursor: pointer;
+    margin-bottom: 8px;
+}
+
+.logo-dec {
+    height: 100px;
+}
+
+.nav-dec {
+    background-color: #0C0521;
+}
+
+input {
+    font-weight: 500 !important;
+}
+
+select {
+    font-weight: 500 !important;
+}
+
+.span-dec {
+    background-color: #ff8800;
+}
+
+span {
+    padding: 10px;
+    background-color: #322852;
+    border-radius: 60px;
+    margin-right: 10px;
+}
+
+.nav-h {
+    font-family: Monoton;
+}
+
+.img-dec {
+    height: 50px;
+    border-radius: 30px;
+}
+
+.form-control:focus {
+    background-color: #fff0de;
+    border-color: #ff8800;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 100, 255, 0.5);
+}
+
+#myForm {
+    color: #525252;
+}
+
+.form-holder {
+    min-height: 100vh;
+    background-color: #d1d1d1;
+}
+
+@media (min-width: 786px) {
+    .bg-dec {
+        width: 50%;
+    }
+}
+
+.form-heading {
+    color: #141414;
+    font-family: "Roboto";
+    font-size: 32px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.error-message {
+    color: #ff0000;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.details-dec {
+    margin-bottom: 100px;
+}
+
+.user-details-section {
+    background-color: #cfcfcf;
+    border-radius: 15px;
+}
+
+.details-h {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+@media (max-width: 786px) {
+    .details-h {
+        font-size: 25px;
+    }
+}
